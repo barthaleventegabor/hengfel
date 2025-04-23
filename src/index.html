@@ -1,0 +1,48 @@
+
+ <!-- File: index.html
+ Author: Bartha Levente
+ Copyright: 2025, Bartha Levente
+ Group: IN
+ Date: 2025-04-23
+ Github: https://github.com/barthaleventegabor/
+ Licenc: MIT -->
+
+
+ <!DOCTYPE html>
+ <html lang="hu">
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Henger</title>
+   <link rel="stylesheet" href="bootstrap.css">
+   <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+   <div class="container">
+     <div class="h1div">
+       <h1>Kör alapú henger felszíne</h1>
+     </div>
+     <img src="henger.png" alt="Henger" id="hengerkep" >
+     
+     <div class="inputs">
+       <div class="input">
+         <label for="sugar">Sugár:</label>
+         <input type="text" id="sugar" class="form-control">
+       </div>
+       <div class="input">
+         <label for="hossz">Hossz:</label>
+         <input type="text" id="hossz" class="form-control">
+       </div>
+       <div class="input">
+         <label for="felszin">Felszín:</label>
+         <input type="text" id="felszin" class="form-control" readonly>
+       </div>
+     </div>
+     <button class="btn btn-secondary mt-2" id="calculateButton">Számítás</button>
+     <img src="keplet.png" alt="Képlet">
+ 
+   </div>
+   <script src="bootstrap.js"></script>
+   <script src="app.js"></script>  
+ </body>
+ </html>

@@ -1,0 +1,39 @@
+/* 
+* File: style.css
+* Author: Bartha Levente
+* Copyright: 2025, Bartha Levente
+* Group: IN
+* Date: 2025-04-23
+* Github: https://github.com/barthaleventegabor/
+* Licenc: MIT */
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    
+    padding: 20px;
+    background-color: #e0f7fa;
+    height: 100dvh;
+    
+    
+}
+.h1div {
+    text-align: center;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.form-control {
+    width: 40%;
+}   
+
+#hengerkep {
+    float: right;
+}
+
+
+
+
+
+
+
