@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.MainController">
+   <children>
+      <Label layoutX="183.0" layoutY="27.0" text="Kör alapú henger felszíne">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="36.0" layoutY="132.0" text="Magasság">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="36.0" layoutY="175.0" text="Sugár">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="heightField" layoutX="128.0" layoutY="130.0" />
+      <TextField fx:id="radiusField" layoutX="128.0" layoutY="173.0" />
+      <TextField fx:id="surfaceAreaField" editable="false" layoutX="128.0" layoutY="246.0" />
+      <Label layoutX="36.0" layoutY="248.0" text="Felszín">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Button layoutX="128.0" layoutY="210.0" mnemonicParsing="false" onAction="#onClickCalcButton" text="Számít" />
+      <Button layoutX="270.0" layoutY="328.0" mnemonicParsing="false" onAction="#onClickAboutButton" text="Névjegy" />
+      <Button layoutX="482.0" layoutY="58.0" mnemonicParsing="false" onAction="#onClilckExitButton" text="Kilépés" />
+   </children>
+</Pane>
