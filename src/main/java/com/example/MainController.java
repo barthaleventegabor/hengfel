@@ -56,6 +56,7 @@ public class MainController {
     }
 
     private void startCalc() {
+        
         if (!inputOk()) {
             Alert alert = new Alert(AlertType.ERROR);
             alert.setTitle("Hiba!");
@@ -75,6 +76,7 @@ public class MainController {
                 + surfaceArea.toString();
         Storage.writeFile(line);
         clearFields();
+        
 
     }
 
@@ -90,7 +92,7 @@ public class MainController {
     private void clearFields() {
         heightField.setText("");
         radiusField.setText("");
-        surfaceAreaField.setText("");
+        
 
     }
 

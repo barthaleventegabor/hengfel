@@ -29,6 +29,7 @@ public class App extends Application {
     public void start(Stage stage) throws IOException {
         _stage = stage;
         scene = new Scene(loadFXML("mainScene"), 600, 400);
+        stage.setTitle("Kör alapú henger");
         stage.setScene(scene);
         stage.show();
     }

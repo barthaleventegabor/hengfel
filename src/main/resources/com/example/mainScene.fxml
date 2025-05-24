@@ -7,7 +7,7 @@
 <?import javafx.scene.text.Font?>
 
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.MainController">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="container" stylesheets="@style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.MainController">
    <children>
       <Label layoutX="183.0" layoutY="27.0" text="Kör alapú henger felszíne">
          <font>
@@ -32,8 +32,9 @@
             <Font size="15.0" />
          </font>
       </Label>
-      <Button layoutX="128.0" layoutY="210.0" mnemonicParsing="false" onAction="#onClickCalcButton" text="Számít" />
-      <Button layoutX="270.0" layoutY="328.0" mnemonicParsing="false" onAction="#onClickAboutButton" text="Névjegy" />
-      <Button layoutX="482.0" layoutY="58.0" mnemonicParsing="false" onAction="#onClilckExitButton" text="Kilépés" />
+      <Button layoutX="128.0" layoutY="210.0" mnemonicParsing="false" onAction="#onClickCalcButton" styleClass="calcButton" text="Számít" />
+      <Button layoutX="270.0" layoutY="328.0" mnemonicParsing="false" onAction="#onClickAboutButton" styleClass="aboutButton" text="Névjegy" />
+      <Button layoutX="482.0" layoutY="58.0" mnemonicParsing="false" onAction="#onClilckExitButton" styleClass="exitButton" text="Kilépés" />
+      <Pane layoutX="335.0" layoutY="100.0" prefHeight="173.0" prefWidth="147.0" styleClass="hengerkep" />
    </children>
 </Pane>
