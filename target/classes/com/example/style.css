@@ -1,7 +1,4 @@
 .hengerkep{
-    /* -fx-background-color: radial-gradient(
-        center 50% 50%, radius 50%,blue,navy
-    ); */
     -fx-background-image: url("henger.jpg");
     -fx-background-size: cover;
     -fx-background-repeat: no-repeat;
