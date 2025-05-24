@@ -46,7 +46,7 @@ public class MainController {
         Alert alert = new Alert(AlertType.INFORMATION);
 
         alert.setTitle("Névjegy");
-        alert.setHeaderText("Az hengfel névjegye");
+        alert.setHeaderText("A hengfel névjegye");
         alert.setContentText("Hengfel\n" + "Készítő: Bartha Levente\n" + "Verzió:1.0\n"
                 + "Csoport: Szoft I-N\n"
                 + "2025-05-24\n");
