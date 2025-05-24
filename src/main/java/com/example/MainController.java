@@ -1,5 +1,15 @@
+/*
+* File: MainController.java
+* Author: Bartha Levente
+* Copyright: 2025, Bartha Levente
+* Group: IN
+* Date: 2025-05-24
+* Github: https://github.com/barthaleventegabor/
+* Licenc: MIT
+*/
 package com.example;
 
+import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
@@ -29,7 +39,7 @@ public class MainController {
 
     @FXML
     void onClilckExitButton(ActionEvent event) {
-
+        startExit();
     }
 
     private void startAbout() {
@@ -61,10 +71,10 @@ public class MainController {
         Double surfaceArea = 2 * Math.PI * radius * (radius + height);
         surfaceAreaField.setText(surfaceArea.toString());
 
-        // String line = height.toString() + ":" + radius1.toString() + ":" + radius2.toString() + ":"
-        //         + volume.toString();
-        // Storage.writeFile(line);
-        // clearFields();
+        String line = height.toString() + ":" + radius.toString() + ":" 
+                + surfaceArea.toString();
+        Storage.writeFile(line);
+        clearFields();
 
     }
 
@@ -82,6 +92,10 @@ public class MainController {
         radiusField.setText("");
         surfaceAreaField.setText("");
 
+    }
+
+    private void startExit() {
+        Platform.exit();
     }
 
 }

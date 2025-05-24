@@ -1,3 +1,12 @@
+/*
+* File: App.java
+* Author: Bartha Levente
+* Copyright: 2025, Bartha Levente
+* Group: IN
+* Date: 2025-05-24
+* Github: https://github.com/barthaleventegabor/
+* Licenc: MIT
+*/
 package com.example;
 
 import javafx.application.Application;
